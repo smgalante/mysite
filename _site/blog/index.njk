@@ -3,17 +3,16 @@ layout: base.njk
 title: blog
 ---
 
-<div>
-    <div class=" mx-auto max-w-5xl text-lg">
+<div class=" mx-auto max-w-5xl text-lg">
         <div class="my-2.5">    
-            <h2 class="text-7xl text-center mb-4">Blog</h2>
+            <h2 class="text-7xl text-center mb-4"> {{ title }} </h2>
         </div>
+    <div class="relative px-4 sm:px-6 lg:px8">
+        <ul>
+          {%for post in collections.posts %}
+             <li><a class="" href="{{ post.url }}">{{ post.data.title }}</a></li>
+         {% endfor %}
+        </ul>
     </div>
-<!--
-<ul>
-    {%for post in collections.posts %}
-        <li><a class="text-red-900" href="{{post.url}}">{{ post.data.title }}</a><br>{{ post.date }}</li>
-    {% endfor %}
-</ul>
--->
+
 </div>

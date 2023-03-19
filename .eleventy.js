@@ -31,11 +31,9 @@ module.exports = function (config) {
   });
 
   // Add pages collection
-  config.addCollection("pages", function (collections) {
-    return collections.getFilteredByTag("page").sort(function (a, b) {
-      return a.data.order - b.data.order;
+  config.addCollection('posts', function (collectionApi) {
+    return collectionApi.getFilteredByGlob('_site/blog/posts/**/*.md')
     });
-  });
 
   return {
     markdownTemplateEngine: "njk",
