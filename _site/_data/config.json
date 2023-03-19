@@ -1,9 +1,9 @@
 {
-  "siteTitle": "My Eleventy Site with Tailwind CSS",
-  "url": "https://example.com",
-  "description": "This is a default template for Eleventy with TailwindCSS",
-  "keywords": "eleventy, 11ty, tailwind, tailwindcss, css, ssg",
+  "siteTitle": "Steven Galante",
+  "url": "https://smgalante.com",
+  "description": "Steven Galante's Personal Website",
+  "keywords": "public relations, media, public policy",
   "image": "https://www.11ty.dev/img/built/IdthKOzqFA-350.avif",
-  "twitter": "@jeremy_daly",
+  "twitter": "@smgalante",
   "card": "summary"
 }

@@ -2,9 +2,9 @@ module.exports = {
   mode: "jit",
   darkMode: "media", // or 'media' or 'class'
   theme: {
-    extend: {},
+      extend: {},
   },
   variants: {},
   plugins: [],
-  content: ["./_site/**/*.{md,njk,sass}"],
+  content: ["./_site/**/*.{md,html,njk,sass}"],
 };
