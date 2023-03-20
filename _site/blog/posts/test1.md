@@ -7,9 +7,13 @@ author: Steven Galante
 categories:
     - test
     - dev
+tags:
+    - lorem
+    - testpost
 ---
 
-## Test Heading 2
+
+# Test Heading 2
 
 In consectetur cillum magna sint amet. Minim veniam amet sint est excepteur tempor ea duis qui adipisicing dolor exercitation ex. Aliquip anim officia officia irure ut in ea culpa. Et dolore laboris est tempor adipisicing adipisicing.
 

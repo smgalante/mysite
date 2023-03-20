@@ -14,6 +14,9 @@ const Image = require("@11ty/eleventy-img");
 module.exports = function (config) {
   // Pass-through images
   config.addPassthroughCopy("./_site/images");
+  config.addPassthroughCopy("./_site/css");
+  
+  config.addWatchTarget("./_site/css");
   
   config.addPlugin(pluginRss);
 
@@ -36,7 +39,8 @@ module.exports = function (config) {
     });
 
   return {
-    markdownTemplateEngine: "njk",
+    templateFormats: ['md', 'njk', 'html'],
+    markdownTemplateEngine: 'njk', 
     dir: {
       input: "_site",
       data: "_data",
