@@ -5,6 +5,6 @@ module.exports = {
       extend: {},
   },
   variants: {},
-  plugins: [],
-  content: ["./_site/**/*.{md,html,njk,sass}"],
+  plugins: [require('@tailwindcss/typography')],
+  content: ["./_site/**/*.{md,html,njk,sass,css}"],
 };

@@ -17,7 +17,7 @@ module.exports = function (config) {
   config.addPassthroughCopy("./_site/css");
   
   config.addWatchTarget("./_site/css");
-  
+
   config.addPlugin(pluginRss);
 
   // Add Date filters
@@ -40,7 +40,7 @@ module.exports = function (config) {
 
   return {
     templateFormats: ['md', 'njk', 'html'],
-    markdownTemplateEngine: 'njk', 
+    markdownTemplateEngine:  'md', 
     dir: {
       input: "_site",
       data: "_data",
