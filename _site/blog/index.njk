@@ -7,12 +7,12 @@ title: blog
     <div class="my-2.5">    
         <h2 class="text-7xl text-center mb-4"> {{ title }} </h2>
     </div>
-    <div>
+    <div class="px-4">
         <p>I sometimes like to expand upon thoughts, ideas, and experiences that doesn't relate to my other work in the comms space. I'm also reexploring writing for the public once again, with this blog being that outlet.</p> 
-    <div class="relative px-4 sm:px-6 lg:px8">
+    <div class="relative p-4 sm:px-6 lg:px8">
         <ul>
           {%for post in collections.posts %}
-             <li><a class="" href="{{ post.url }}">{{ post.data.title }}</a></li>
+             <li><a class="" href="{{ post.url }}">{{ post.data.title }}</a> - {{ post.data.description }} {{ post.data.date }} </li>
          {% endfor %}
         </ul>
     </div>
