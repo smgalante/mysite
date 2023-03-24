@@ -1,7 +1,7 @@
 ---
 layout: blog.njk
-title: Test Post 2
-description: A 2 of eleventy blog post
+title: This is my second test
+description: A second test
 date: 2023-03-12
 author: Steven Galante
 categories:
@@ -14,7 +14,7 @@ tags:
 
 ## This is a second test 
 
-Excepteur enim irure proident cillum. Do aliqua fugiat aliquip [velit sint exercitation](www.example.com) pariatur eiusmod laboris ut ut. Labore nisi velit aute duis non exercitation eu reprehenderit. Pariatur pariatur anim aliquip do ea ea aliqua ad ex minim ipsum id.
+Excepteur enim **irure proident** cillum. _Do aliqua_ fugiat aliquip [velit sint exercitation](https://smgalante.com) pariatur eiusmod laboris ut ut. Labore nisi velit aute duis non exercitation eu reprehenderit. Pariatur pariatur anim aliquip do ea ea aliqua ad ex minim ipsum id.
 
 ![some shit](/images/page-with-curl-apple.png)
 

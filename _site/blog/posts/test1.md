@@ -1,6 +1,6 @@
 ---
 layout: blog.njk
-title: Test Post 1
+title: This is my first test
 description: A test of eleventy blog post
 date: 2023-03-19
 author: Steven Galante
@@ -20,7 +20,7 @@ Excepteur enim irure proident cillum. Do aliqua fugiat aliquip velit sint exerci
 
 ![some shit](/images/page-with-curl-apple.png)
 
-> Aliquip fugiat sint cupidatat velit ullamco ea cillum. Pariatur veniam nostrud cillum aliqua eiusmod fugiat reprehenderit id cupidatat aliqua mollit elit Lorem ea. Sint cillum aute ullamco ex amet sint reprehenderit enim voluptate nulla est proident et laboris. Reprehenderit labore ex pariatur non magna nulla est magna esse. Officia eu pariatur ea ea ut consequat duis non occaecat. Culpa deserunt cupidatat nostrud reprehenderit mollit et do duis enim. Laborum et elit ea aliqua adipisicing exercitation occaecat pariatur laboris Lorem aute nisi cupidatat in.
+> Aliquip fugiat sint cupidatat velit ullamco ea cillum. Pariatur veniam nostrud cillum aliqua eiusmod fugiat reprehenderit id cupidatat aliqua mollit elit Lorem ea. Sint cillum aute ullamco ex amet sint reprehenderit enim voluptate nulla est proident et laboris. [Reprehenderit labore ex](https://smgalante.com/) pariatur non magna nulla est magna esse. Officia eu pariatur ea ea ut consequat duis non occaecat. Culpa deserunt cupidatat nostrud reprehenderit mollit et do duis enim. Laborum et elit ea aliqua adipisicing exercitation occaecat pariatur laboris Lorem aute nisi cupidatat in.
 
 Nulla id aute aliqua dolore consequat voluptate irure minim dolor dolore eiusmod nostrud. In nisi fugiat voluptate elit irure proident commodo deserunt sint eu duis occaecat. Laboris magna irure ullamco eu aute exercitation deserunt id pariatur esse cupidatat incididunt labore exercitation.
 

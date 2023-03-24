@@ -12,7 +12,7 @@ title: blog
     <div class="relative p-4 sm:px-6 lg:px8">
         <ul>
           {%for post in collections.posts %}
-             <li><a class="" href="{{ post.url }}">{{ post.data.title }}</a> - {{ post.data.description }} {{ post.data.date }} </li>
+             <li class="py-2"><a class="" href="{{ post.url }}">{{ post.data.title }}</a> - {{ post.data.description }} <br> <small>{{ post.date }}</small> </li>
          {% endfor %}
         </ul>
     </div>
