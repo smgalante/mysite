@@ -1,12 +1,15 @@
 <div class="mx-auto max-w-5xl text-lg">
     <nav class="bg-white right=0">
         <div class="flex lg:float-right pt-5 text-xl lg:pt-[109px] justify-center md:justify-end">
-            <a href="/" class="px-2.5 items-center font-medium">home</a>
             <a href="/now" class="px-2.5 items-center font-medium">now</a>
             <a href="/about" class="px-2.5 items-center font-medium">about</a>
             <a href="/contact" class="px-2.5 items-center font-medium">contact</a>
             <a href="/blog" class="px-2.5 items-center font-medium">blog</a>
         </div>
     </nav>
-    <h1 class="text-3xl md:text-6xl pt-10 lg:pt-20 pb-4 md:pb-6 lg:pb-10 mx-2.5 lg:px-0 text-gray-900 font-display">Steven Galante</h1>
+    {% if page.url != '/' %}
+   <a href="/"><h1 class="text-3xl md:text-6xl pt-10 lg:pt-20 pb-4 md:pb-6 lg:pb-10 mx-2.5 lg:px-0 text-gray-900 font-display">Steven Galante</h1></a>
+   {% else %}
+   <h1 class="text-3xl md:text-6xl pt-10 lg:pt-20 pb-4 md:pb-6 lg:pb-10 mx-2.5 lg:px-0 text-gray-900 font-display">Steven Galante</h1>
+    {% endif %}
 </div>
